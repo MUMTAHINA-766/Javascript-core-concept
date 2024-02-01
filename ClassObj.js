@@ -11,7 +11,7 @@ class Person {
         this.name = name;
     }
     sendMail(msg){
-        console.log("sending email to",p2.name);
+        console.log("sending email to",this.name);
         console.log(msg);
     }
     
